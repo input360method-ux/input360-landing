@@ -9,7 +9,7 @@ const plans = [
       'Stack de recursos curados',
       '100+ idiomas',
     ],
-    cta: { label: 'Empezar aquí', className: 'btn-card-outline' },
+    cta: { label: 'Empezar aquí', className: 'btn-card-outline', href: 'https://buy.stripe.com/5kQbIU2RI5QUblTeol8Zq02' },
     featured: false,
     delay: '',
   },
@@ -25,7 +25,7 @@ const plans = [
       'Sistema anti-abandono',
       'Soporte email 30 días',
     ],
-    cta: { label: 'Quiero el diagnóstico Pro →', className: 'btn-gold' },
+    cta: { label: 'Quiero el diagnóstico Pro →', className: 'btn-gold', href: 'https://buy.stripe.com/4gMfZagIydjm2Pn3JH8Zq01' },
     featured: true,
     delay: 'reveal-delay-1',
   },
@@ -39,7 +39,7 @@ const plans = [
       'Acceso a comunidad privada',
       'Soporte prioritario 60 días',
     ],
-    cta: { label: 'Quiero el Elite →', className: 'btn-card-outline' },
+    cta: { label: 'Quiero el Elite →', className: 'btn-card-outline', href: 'https://buy.stripe.com/bJefZaboe0wA9dL9418Zq00' },
     featured: false,
     delay: 'reveal-delay-2',
   },
@@ -69,7 +69,7 @@ export default function Pricing() {
             <ul className="price-features">
               {plan.features.map(f => <li key={f}>{f}</li>)}
             </ul>
-            <a href="#" className={plan.cta.className}>{plan.cta.label}</a>
+            <a href={plan.cta.href} className={plan.cta.className} target="_blank" rel="noreferrer">{plan.cta.label}</a>
           </div>
         ))}
       </div>
