@@ -1,6 +1,6 @@
 const plans = [
   {
-    name: 'Básico',
+    name: 'Clarity',
     price: '29',
     features: [
       'Diagnóstico psicológico completo',
@@ -9,7 +9,7 @@ const plans = [
       'Stack de recursos curados',
       '100+ idiomas',
     ],
-    cta: { label: 'Empezar aquí', className: 'btn-card-outline', href: 'https://buy.stripe.com/5kQbIU2RI5QUblTeol8Zq02' },
+    cta: { label: 'Empezar aquí', className: 'btn-card-outline', href: 'https://buy.stripe.com/28E8wIfEu7Z2blTbc98Zq03' },
     featured: false,
     delay: '',
   },
@@ -39,7 +39,7 @@ const plans = [
       'Acceso a comunidad privada',
       'Soporte prioritario 60 días',
     ],
-    cta: { label: 'Quiero el Elite →', className: 'btn-card-outline', href: 'https://buy.stripe.com/bJefZaboe0wA9dL9418Zq00' },
+    cta: { label: 'Quiero el Elite →', className: 'btn-card-outline', href: 'https://buy.stripe.com/9B67sE63U4MQahPgwt8Zq04' },
     featured: false,
     delay: 'reveal-delay-2',
   },
